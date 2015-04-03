@@ -1,0 +1,44 @@
+{
+  "name": "node-artemis",
+  "version": "0.0.0",
+  "description": "An Artemis SBS server interface written in Node",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "artemis": "./bin/artemis.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mrfishie/node-artemis.git"
+  },
+  "keywords": [
+    "artemis",
+    "space",
+    "bridge",
+    "simulator",
+    "game",
+    "server",
+    "interface"
+  ],
+  "author": "mrfishie <me@mrfishie.com> (http://mrfishie.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrfishie/node-artemis/issues"
+  },
+  "homepage": "https://github.com/mrfishie/node-artemis",
+  "dependencies": {
+    "hookjs": "^0.1.0",
+    "bluebird": "^2.9.14",
+    "debug": "^2.1.2",
+    "lodash-node": "^3.5.0",
+    "node-bitarray": "0.0.2",
+    "node-xml-lite": "0.0.3",
+    "modelo": "^4.1.2",
+    "redis": "^0.12.1"
+  },
+  "devDependencies": {
+    "v8-profiler": "^5.2.4"
+  }
+}
