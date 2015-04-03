@@ -29,13 +29,14 @@
   },
   "homepage": "https://github.com/mrfishie/node-artemis",
   "dependencies": {
-    "hookjs": "^0.1.0",
-    "bluebird": "^2.9.14",
-    "debug": "^2.1.2",
-    "lodash-node": "^3.5.0",
+    "bluebird": "^2.9.24",
+    "debug": "^2.1.3",
+    "hookjs": "^0.1.1",
+    "lodash": "^3.6.0",
+    "modelo": "^4.1.2",
     "node-bitarray": "0.0.2",
     "node-xml-lite": "0.0.3",
-    "modelo": "^4.1.2",
+    "npm-check-updates": "^1.5.1",
     "redis": "^0.12.1"
   },
   "devDependencies": {
