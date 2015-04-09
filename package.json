@@ -4,7 +4,8 @@
   "description": "An Artemis SBS server interface written in Node",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bin/artemis"
   },
   "bin": {
     "artemis": "./bin/artemis.js"
