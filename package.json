@@ -32,7 +32,7 @@
   "dependencies": {
     "bluebird": "^2.9.24",
     "debug": "^2.1.3",
-    "hookjs": "^0.1.1",
+    "hookjs": "^0.1.2",
     "lodash": "^3.6.0",
     "modelo": "^4.1.2",
     "node-bitarray": "0.0.2",
