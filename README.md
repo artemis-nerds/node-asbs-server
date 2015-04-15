@@ -22,5 +22,7 @@ $ cd node-artemis
 $ npm install
 ```
 
+node-artemis needs some of Artemis' data files to run. Find the installation path for Artemis and copy the `dat` folder to the node-artemis folder (so you have a `dat` folder in the node-artemis folder). On Windows x64, Artemis is installed at `C:\Program Files (x86)\Artemis`.
+
 Now, run the `npm start` command to start a vanilla instance of node-artemis (vanilla meaning default configuration and
 gameplay).
