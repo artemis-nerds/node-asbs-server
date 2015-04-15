@@ -11,3 +11,16 @@ of players online.
 
 Looking for documentation on the Artemis packet protocol? node-artemis uses [ArtClientLibs documentation](https://github.com/rjwut/ArtClientLib/wiki/Artemis-Packet-Protocol)
 on the protocol for development, and we recommend you take a look too. Any 'discoveries' in the protocol from node-artemis are published on that wiki.
+
+## Quick-Run
+
+To download and try Artemis out for yourself, you first need to clone the repo and install dependencies.
+
+```
+$ git clone https://github.com/mrfishie/node-artemis
+$ cd node-artemis
+$ npm install
+```
+
+Now, run the `npm start` command to start a vanilla instance of node-artemis (vanilla meaning default configuration and
+gameplay).
