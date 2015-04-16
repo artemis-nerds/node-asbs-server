@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node bin/artemis"
+    "start": "iojs bin/artemis"
   },
   "bin": {
     "artemis": "./bin/artemis.js"
