@@ -28,6 +28,12 @@ $ npm install
 
 node-artemis needs some of Artemis' data files to run. Find the installation path for Artemis and copy the `dat` folder to the node-artemis folder (so you have a `dat` folder in the node-artemis folder). On Windows x64, Artemis is installed at `C:\Program Files (x86)\Artemis`. **_If you do not have the required data files, node-artemis will not be able to run. As a result, you cannot (and definitely should not!) use node-artemis without owning the Artemis game._**
 
+By default node-artemis won't show anything on the console while running. If you wan't to enable debug messages to see whats happening, set the `DEBUG` environment variable to `*` or `artemis:*`. On Windows, you can do this with the `set` command:
+
+```
+set DEBUG=artemis:*
+```
+
 Now, run the `npm start` command to start a vanilla instance of node-artemis (vanilla meaning default configuration and
 gameplay). _Note: you'll need [io.js](http://iojs.org/) installed to use the `npm start` command. If you don't, use the `node bin/artemis` instead._
 
