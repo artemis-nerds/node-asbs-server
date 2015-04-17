@@ -37,6 +37,9 @@ node_modules
 # Users Environment Variables
 .lock-wscript
 
+# Backup files from text editors
+*~
+
 # =========================
 # Operating System Files
 # =========================
