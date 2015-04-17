@@ -9,6 +9,8 @@ node-artemis is also designed to be able to be run as an MMO server rather than 
 is to allow node-artemis to make full use of multi-core processors and distributed systems to be able to host games with hundreds or thousands
 of players online.
 
+**For more information about the project and the legalities of it all, please take a look at [the topic](http://artemis.forumchitchat.com/post/7373218) on the Artemis forum.**
+
 node-artemis _is not_ designed to be a standalone server. It is designed to provide an interface to allow another application to host a node-artemis server, as well as configure the server and change behaviour.
 
 Looking for documentation on the Artemis packet protocol? node-artemis uses [ArtClientLibs documentation](https://github.com/rjwut/ArtClientLib/wiki/Artemis-Packet-Protocol)
