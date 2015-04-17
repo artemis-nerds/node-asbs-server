@@ -2,9 +2,15 @@
 logs
 *.log
 
+# Webstorm and other IDEs
 .idea
 OLD
+
+# Artemis' data files
 dat
+
+# Generated vessel data JSON file
+vesselData.json
 
 # Runtime data
 pids
