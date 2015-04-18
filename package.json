@@ -4,7 +4,7 @@
   "description": "An Artemis SBS server interface written in Node",
   "main": "lib/index.js",
   "scripts": {
-    "test": "dir node_modules & \"./node_modules/.bin/detect\" ./lib/**/*.js",
+    "test": "detect ./lib/**/*.js",
     "start": "iojs bin/artemis"
   },
   "bin": {
