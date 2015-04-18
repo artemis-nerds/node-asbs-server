@@ -1,4 +1,6 @@
 # node-artemis
+[![Build Status](https://travis-ci.org/mrfishie/node-artemis.svg?branch=travis-ci)](https://travis-ci.org/mrfishie/node-artemis)
+
 An Artemis SBS server interface written in Node.
 
 Thanks for checking out node-artemis! node-artemis is an _unofficial_ custom server library for the [Artemis Space Bridge Simulator](http://www.artemis.eochu.com/).
