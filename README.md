@@ -39,6 +39,12 @@ set DEBUG=artemis:*
 Now, run the `npm start` command to start a vanilla instance of node-artemis (vanilla meaning default configuration and
 gameplay). _Note: you'll need [io.js](http://iojs.org/) installed to use the `npm start` command. If you don't, use the `node bin/artemis` instead._
 
+## Why?
+
+One of the original inspirations for node-artemis was to create an MMO Artemis server where groups of players could interact with a real-time world including AI civilisations and 'random encounters'. A further catalyst for the idea was many of the posts in the ['development' section](http://artemis.forumchitchat.com/?forum=309504) of the [Artemis forum](http://artemis.forumchitchat.com/) with suggestions for new improvements or better scripting. What if there was a custom server that let you have full control over gameplay? Instead of asking to add new things to the game, people could do it themselves with node-artemis and use it wherever they wanted.
+
+node-artemis was never meant to be a replacement for the stock Artemis server, and it never will be. It is _not_ a project to reverse-engineer the engine. Rather it is a project to create a server with behaviour _similar_ to the server, but developed with open-source governance in mind.
+
 ## Credit
 
 Without the awesome work of many people, this project would not be possible. Here are just some of the projects that were incredibly useful when creating this software:
