@@ -22,7 +22,7 @@ on the protocol for development, and we recommend you take a look too. Any 'disc
 
 To download and try node-artemis out for yourself, you will first need to download install [NodeJS](nodejs.org). When Node has finished installing, open the terminal and run the following command:
 
-	npm install artemis -g
+	npm install node-artemis -g
 
 This will download and install node-artemis and its dependencies.
 
