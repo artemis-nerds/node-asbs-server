@@ -11,8 +11,6 @@ node-artemis is also designed to be able to be run as an MMO server rather than 
 is to allow node-artemis to make full use of multi-core processors and distributed systems to be able to host games with hundreds or thousands
 of players online.
 
-**For more information about the project and the legalities of it all, please take a look at [the topic](http://artemis.forumchitchat.com/post/7373218) on the Artemis forum.**
-
 node-artemis _is not_ designed to be a standalone server. It is designed to provide an interface to allow another application to host a node-artemis server, as well as configure the server and change behaviour.
 
 Looking for documentation on the Artemis packet protocol? node-artemis uses [ArtClientLibs documentation](https://github.com/rjwut/ArtClientLib/wiki/Artemis-Packet-Protocol)
@@ -49,6 +47,10 @@ Now, run `artemis` in the terminal, and a vanilla instance of node-artemis will 
 One of the original inspirations for node-artemis was to create an MMO Artemis server where groups of players could interact with a real-time world including AI civilisations and 'random encounters'. A further catalyst for the idea was many of the posts in the ['development' section](http://artemis.forumchitchat.com/?forum=309504) of the [Artemis forum](http://artemis.forumchitchat.com/) with suggestions for new improvements or better scripting. What if there was a custom server that let you have full control over gameplay? Instead of asking to add new things to the game, people could do it themselves with node-artemis and use it wherever they wanted.
 
 node-artemis was never meant to be a replacement for the stock Artemis server, and it never will be. It is _not_ a project to reverse-engineer the engine. Rather it is a project to create a server with behaviour _similar_ to the server, but developed with open-source governance in mind.
+
+For all those people wondering about legalities and whatnot, I'm releasing/working on this in a way similar to ArtClientLib. If Thom (the creator of Artemis) or another official developer asks me to stop, I will stop. Additionally, as I have said, node-artemis is designed for a different purpose than the stock Artemis server. Thom has made it pretty clear that the stock server is mainly made for games over LAN, so node-artemis is designed to fill the gap, not provide a means to play the game using unnofficial clients and a server. node-artemis is meant to be a server in a similar way to how Glitter is a client: it will never provide the entire game as it is in the stock server. I'm sure it would be possible for someone to do that using node-artemis, but node-artemis itself will not be a complete impersonation of the stock server. That was and is never one of its goals.
+
+node-artemis will always need the data files from Artemis to run. You can't even connect to the server if the server doesn't have them. Just like the Artemis installer, these data files shouldn't be given to people who don't own the game.
 
 ## Credit
 
