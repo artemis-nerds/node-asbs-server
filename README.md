@@ -20,24 +20,35 @@ on the protocol for development, and we recommend you take a look too. Any 'disc
 
 ## Quick-Run
 
-To download and try Artemis out for yourself, you first need to clone the repo and install dependencies.
+To download and try node-artemis out for yourself, you will first need to download install [NodeJS](nodejs.org). When Node has finished installing, open the terminal and run the following command:
 
-```
-$ git clone https://github.com/mrfishie/node-artemis
-$ cd node-artemis
-$ npm install
-```
+	npm install artemis -g
 
-node-artemis needs some of Artemis' data files to run. Find the installation path for Artemis and copy the `dat` folder to the node-artemis folder (so you have a `dat` folder in the node-artemis folder). On Windows x64, Artemis is installed at `C:\Program Files (x86)\Artemis`. **_If you do not have the required data files, node-artemis will not be able to run. As a result, you cannot (and definitely should not!) use node-artemis without owning the Artemis game._**
+This will download and install node-artemis and its dependencies.
 
-By default node-artemis won't show anything on the console while running. If you wan't to enable debug messages to see whats happening, set the `DEBUG` environment variable to `*` or `artemis:*`. On Windows, you can do this with the `set` command:
+Next, you need to configure node-artemis to be able to find your Artemis installation's data files. node-artemis requires the data files from the actual game. As a result, you cannot (and definitely should not!) use node-artemis without owning Artemis.
 
-```
-set DEBUG=artemis:*
-```
+To do this, open the NPM modules folder. On Windows, this is located in `%appdata%\npm\node_modules`. Find the node-artemis folder, enter it, open the `lib` folder, and then the `config` folder. Now, open `vesselData.js` in your favourite text editor. Change the line reading
 
-Now, run the `npm start` command to start a vanilla instance of node-artemis (vanilla meaning default configuration and
-gameplay). _Note: you'll need [io.js](http://iojs.org/) installed to use the `npm start` command. If you don't, use the `node bin/artemis` instead._
+	dir: 'dat/'
+
+To contain the directory that contains Artemis' data files. For example, on Windows x64, you would change this to
+
+	dir: 'C:/Program Files (x86)/Artemis/dat/'
+
+Remember, if you want to use forward slashes in the path (i.e `\` instead of `/`), you need to 'escape' them (use a double slash, like `\\`).
+
+By default, node-artemis won't show anything on the terminal while running. If you want to enable debug messages to see what's happening, set the `DEBUG` environment variable to `artemis:*`. On Windows, you can do this with the `set` command:
+
+	set DEBUG=artemis:*
+
+Now, run `artemis` in the terminal, and a vanilla instance of node-artemis will start (vanilla meaning default configuration and gameplay). Enjoy!
+
+## Why?
+
+One of the original inspirations for node-artemis was to create an MMO Artemis server where groups of players could interact with a real-time world including AI civilisations and 'random encounters'. A further catalyst for the idea was many of the posts in the ['development' section](http://artemis.forumchitchat.com/?forum=309504) of the [Artemis forum](http://artemis.forumchitchat.com/) with suggestions for new improvements or better scripting. What if there was a custom server that let you have full control over gameplay? Instead of asking to add new things to the game, people could do it themselves with node-artemis and use it wherever they wanted.
+
+node-artemis was never meant to be a replacement for the stock Artemis server, and it never will be. It is _not_ a project to reverse-engineer the engine. Rather it is a project to create a server with behaviour _similar_ to the server, but developed with open-source governance in mind.
 
 ## Why?
 

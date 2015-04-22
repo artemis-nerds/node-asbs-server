@@ -1,6 +1,6 @@
 {
-  "name": "node-artemis",
-  "version": "0.0.0",
+  "name": "artemis",
+  "version": "0.1.0",
   "description": "An Artemis SBS server interface written in Node",
   "main": "lib/index.js",
   "scripts": {
