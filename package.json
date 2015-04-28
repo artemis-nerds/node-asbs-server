@@ -26,9 +26,9 @@
   "author": "mrfishie <me@mrfishie.com> (http://mrfishie.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mrfishie/node-artemis/issues"
+    "url": "https://github.com/artemis-nerds/node-asbs-server/issues"
   },
-  "homepage": "https://github.com/mrfishie/node-artemis",
+  "homepage": "https://github.com/artemis-nerds/node-asbs-server",
   "dependencies": {
     "bluebird": "^2.9.24",
     "debug": "^2.1.3",
