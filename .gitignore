@@ -9,6 +9,9 @@ OLD
 # Artemis' data files
 dat
 
+# Packet working files
+working.*
+
 # Generated vessel data JSON file
 vesselData.json
 
